@@ -6,6 +6,8 @@ Someone asks you "who do you know who…?" You answer from memory, and memory ha
 
 It is read-only. It never writes to your table, and it never sends anything. Every draft it writes is for you to read.
 
+**The story behind it:** [Number 117](https://wazirigaruba.com/number-117). A friend needed someone who had raised money for real estate. The right person ranked 117th of 122 on warmth.
+
 **Already installed Drop 1 (Relationship Memory)?** You have this skill and it already reads your inbox for warmth. Skip to "Get more out of it" at the bottom.
 
 ## What you need

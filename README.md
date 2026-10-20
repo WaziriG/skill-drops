@@ -10,10 +10,10 @@ Each one is rated for how ready it is to use:
 - **Needs setup**: add your own key or connection first. The drop says how long that takes.
 - **Pattern only**: the idea written out, for you to make your own.
 
-| # | Drop | Rating | What it does |
-|---|------|--------|--------------|
-| 01 | [Relationship Memory](01-relationship-memory/) | Works as-is | Gives your contact list a memory, so you can ask Claude Code "who do I know who…" and get an answer from your own notes, warmest relationships first. |
-| 02 | [Who Knows](02-who-knows/) | Works as-is | The question layer on its own. Ten people, one sentence each on what they can help with, and you can ask "who do I know who…" in fifteen minutes, no inbox needed. Also finds introductions worth making. |
+| # | Drop | Rating | What it does | Story |
+|---|------|--------|--------------|-------|
+| 01 | [Relationship Memory](01-relationship-memory/) | Works as-is | Gives your contact list a memory, so you can ask Claude Code "who do I know who…" and get an answer from your own notes, warmest relationships first. | [Number 117](https://wazirigaruba.com/number-117) |
+| 02 | [Who Knows](02-who-knows/) | Works as-is | The question layer on its own. Ten people, one sentence each on what they can help with, and you can ask "who do I know who…" in fifteen minutes, no inbox needed. Also finds introductions worth making. | [Number 117](https://wazirigaruba.com/number-117) |
 
 ## Installing a drop
 

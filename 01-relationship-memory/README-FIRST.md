@@ -2,6 +2,8 @@
 
 **What it is.** A way to give your contact list a memory. A weekly, read-only pass over your inbox records how warm each relationship is, what you have talked about, what is still open, and who is waiting on a reply. You add one line per person on what they can help with, in your words. Then Claude Code can answer "who do I know who…" and suggest introductions worth making.
 
+**The story behind it:** [Number 117](https://wazirigaruba.com/number-117). A friend needed someone who had raised money for real estate. The right person ranked 117th of 122 on warmth.
+
 **Open first:** `GUIDE.pdf` (the same text is in `GUIDE.md`). About 20 minutes to a first result.
 
 **Fastest proof it works** (two minutes, invented people only, writes nothing):
