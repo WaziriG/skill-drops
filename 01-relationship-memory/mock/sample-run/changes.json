@@ -1,0 +1,819 @@
+{
+ "run": {
+  "date": "2026-10-02",
+  "version": "1.1",
+  "source": "mbox mock-inbox.mbox",
+  "applied": true,
+  "people": 30,
+  "full": false
+ },
+ "owner_columns_never_written": [
+  "Name",
+  "Email",
+  "Other Emails",
+  "Company",
+  "Role / Title",
+  "Can Help With",
+  "Know Them?",
+  "Notes",
+  "Segment",
+  "Priority",
+  "Next Step"
+ ],
+ "formulas_never_written": [
+  "Warmth",
+  "Follow-up Status"
+ ],
+ "rules": {
+  "Open Loops": "append-only: the value given already contains every earlier line",
+  "Relationship Context": "incremental runs keep the stored text and add a dated line",
+  "Follow-up Cadence": "present only when the stored value was blank"
+ },
+ "updates": [
+  {
+   "id": "",
+   "name": "Avery Calderwood",
+   "email": "avery@ashgrovecapital.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 8,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Aavery%40ashgrovecapital.example%20OR%20to%3Aavery%40ashgrovecapital.example",
+    "Emails Exchanged": 8,
+    "Email Threads": 2,
+    "First Email": "2025-08-07",
+    "Last Email": "2026-08-29",
+    "Last Email From": "Me",
+    "Follow-up Cadence": 30,
+    "Relationship Context": "You met Avery at a founder dinner in August 2025, where Avery said they look at B2B software at seed. You sent two company decks, Avery took a call with the second and began diligence. In 2026 you caught up on operations-heavy companies, and Avery offered an intro to their portfolio COO group.",
+    "Open Loops": "2026-10-02: Avery said they would send the intro to their portfolio COO group, and you said you would prepare a short session for them; neither is confirmed as done."
+   },
+   "computed": {
+    "Warmth": 68,
+    "Follow-up Status": "Overdue"
+   }
+  },
+  {
+   "id": "",
+   "name": "Benedikt Fenwick",
+   "email": "ben@latticerow.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 6,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Aben%40latticerow.example%20OR%20to%3Aben%40latticerow.example",
+    "Emails Exchanged": 6,
+    "Email Threads": 2,
+    "First Email": "2026-03-15",
+    "Last Email": "2026-07-29",
+    "Last Email From": "Me",
+    "Follow-up Cadence": 60,
+    "Relationship Context": "You referred a client of yours who needed a 13-week cash forecast before a bank meeting to Benedikt at Lattice Row Accounting. Benedikt built the forecast, and the client got the line of credit at that meeting. In July Benedikt proposed lunch to discuss two of their clients who need help automating month-end close, and you agreed to the first week of the month.",
+    "Open Loops": "2026-10-02: You asked Benedikt on 2026-07-29 to send what their two clients' month-end close looks like today, and the emails show no reply or confirmed lunch date."
+   },
+   "computed": {
+    "Warmth": 57,
+    "Follow-up Status": "Overdue"
+   }
+  },
+  {
+   "id": "",
+   "name": "Corinne Hazelton",
+   "email": "corinne.hazelton@tallgrasshealth.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 7,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Acorinne.hazelton%40tallgrasshealth.example%20OR%20to%3Acorinne.hazelton%40tallgrasshealth.example",
+    "Emails Exchanged": 7,
+    "Email Threads": 2,
+    "First Email": "2025-12-05",
+    "Last Email": "2026-09-07",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 30,
+    "Relationship Context": "In December 2025 you sent Corinne Hazelton at Tallgrass Health a map of the patient scheduling workflow across all 12 clinics. Corinne said no-show follow-up is where they lose the most, you agreed to start there, and Corinne approved the build plan to begin on the 3rd. In September 2026 Corinne asked whether you know a firm for six months of outsourced HR coverage while their HR manager leaves and they hire.",
+    "Open Loops": "2026-10-02: You said on 2026-09-04 that you would check with an HR firm and come back to Corinne that week, and the emails show no reply from you since Corinne's 2026-09-07 message."
+   },
+   "computed": {
+    "Warmth": 85,
+    "Follow-up Status": "Reply owed"
+   }
+  },
+  {
+   "id": "",
+   "name": "Dayo Northcote",
+   "email": "dayo@riverstonetalent.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 3,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Adayo%40riverstonetalent.example%20OR%20to%3Adayo%40riverstonetalent.example",
+    "Emails Exchanged": 3,
+    "Email Threads": 1,
+    "First Email": "2026-01-14",
+    "Last Email": "2026-01-22",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 60,
+    "Relationship Context": "You referred a candidate to Dayo Northcote at Riverstone Talent last spring, and that COO placement worked out well. In January 2026 you exchanged messages under the subject \"Controller search\", where you said you would keep sending people their way. Dayo replied that they have capacity for two more finance searches this quarter.",
+    "Open Loops": "2026-10-02: You said you would keep sending referrals to Dayo, who invited them for the two open finance search slots, and the emails show no referral sent yet."
+   },
+   "computed": {
+    "Warmth": 44,
+    "Follow-up Status": "Dormant"
+   }
+  },
+  {
+   "id": "",
+   "name": "Emeka Stanhope",
+   "email": "emeka@brightmanlegal.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 3,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Aemeka%40brightmanlegal.example%20OR%20to%3Aemeka%40brightmanlegal.example",
+    "Emails Exchanged": 3,
+    "Email Threads": 1,
+    "First Email": "2026-05-04",
+    "Last Email": "2026-05-14",
+    "Last Email From": "Me",
+    "Follow-up Cadence": 60,
+    "Relationship Context": "You asked Emeka Stanhope of Brightman Legal on 4 May 2026 to review a partnership agreement before signing, focusing on the IP clause. Emeka sent back redlines on 9 May, saying the IP clause needed work and the rest was standard. You signed with their changes on 14 May."
+   },
+   "computed": {
+    "Warmth": 36,
+    "Follow-up Status": "Overdue"
+   }
+  },
+  {
+   "id": "",
+   "name": "Freya Redfern",
+   "email": "freya@kestrelcyber.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 6,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Afreya%40kestrelcyber.example%20OR%20to%3Afreya%40kestrelcyber.example",
+    "Emails Exchanged": 6,
+    "Email Threads": 2,
+    "First Email": "2026-06-03",
+    "Last Email": "2026-09-13",
+    "Last Email From": "Me",
+    "Follow-up Cadence": 30,
+    "Relationship Context": "You first contacted Freya in June 2026 to ask whether they would run a tabletop exercise for one of your clients ahead of an insurance renewal, and they agreed. You referred the client (about 80 people, Microsoft 365, one office), Freya ran the exercise, and it surfaced two gaps in the client's backup restore. In September Freya proposed co-hosting an incident response breakfast for operators.",
+    "Open Loops": "2026-10-02: You told Freya on 2026-09-13 that you would find a date for the co-hosted breakfast within the next six weeks, and you have not yet confirmed one; Freya is bringing the content and you are bringing the room."
+   },
+   "computed": {
+    "Warmth": 62,
+    "Follow-up Status": "Due soon"
+   }
+  },
+  {
+   "id": "",
+   "name": "Gustavo Mallory",
+   "email": "gmallory@copperline.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 6,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Agmallory%40copperline.example%20OR%20to%3Agmallory%40copperline.example",
+    "Emails Exchanged": 6,
+    "Email Threads": 2,
+    "First Email": "2025-10-26",
+    "Last Email": "2026-07-02",
+    "Last Email From": "Me",
+    "Follow-up Cadence": 60,
+    "Relationship Context": "You sent Gustavo Mallory of Copperline Logistics a plan for rolling out route planning across the fleet, which you carried out depot by depot. All 40 trucks went live in November 2025, with fuel spend down 9 percent in the first month. In June 2026 Gustavo privately asked whether you know an adviser for a possible sale of the business in about two years.",
+    "Open Loops": "2026-10-02: On 2026-07-02 you told Gustavo you would think about who fits best for advising on a business sale and come back to him, and no follow-up has been sent."
+   },
+   "computed": {
+    "Warmth": 54,
+    "Follow-up Status": "Overdue"
+   }
+  },
+  {
+   "id": "",
+   "name": "Hiroshi Vandermeer",
+   "email": "hiroshi@northfieldvc.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 6,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Ahiroshi%40northfieldvc.example%20OR%20to%3Ahiroshi%40northfieldvc.example",
+    "Emails Exchanged": 6,
+    "Email Threads": 2,
+    "First Email": "2026-04-04",
+    "Last Email": "2026-09-22",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 60,
+    "Relationship Context": "You offered Hiroshi Vandermeer an introduction to a logistics software founder raising a Series A, and after they accepted you sent it in April; they met the founder and said it was not quite ready but they would stay close. In September you reached out about two of their portfolio companies scaling operations, and they asked for a short note to forward to the CEOs.",
+    "Open Loops": "2026-10-02: Hiroshi asked on 2026-09-22 for a short note about operations and reporting that they can forward to their portfolio CEOs, and you have not yet sent it.",
+    "Suggested Can Help With": "Leads climate and logistics tech investments, mostly Series A, and sits on two portfolio boards; can advise on Series A fundraising and connect founders to portfolio companies."
+   },
+   "computed": {
+    "Warmth": 83,
+    "Follow-up Status": "Reply owed"
+   }
+  },
+  {
+   "id": "",
+   "name": "Ines Kittredge",
+   "email": "ines@inglebyevents.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 6,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Aines%40inglebyevents.example%20OR%20to%3Aines%40inglebyevents.example",
+    "Emails Exchanged": 6,
+    "Email Threads": 2,
+    "First Email": "2026-02-13",
+    "Last Email": "2026-09-27",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 90,
+    "Relationship Context": "Ines Kittredge of Ingleby Events invited you to an operators dinner in February 2026, which you attended, and afterwards they told you three people had asked for your details. In September they asked you to speak for ten minutes at the next dinner, and you agreed, proposing a short story about how operators spend their week.",
+    "Open Loops": "2026-10-02: Ines asked you on 2026-09-27 to send a title and a two-line description for your talk by Friday, and your reply is not in the emails."
+   },
+   "computed": {
+    "Warmth": 83,
+    "Follow-up Status": "Reply owed"
+   }
+  },
+  {
+   "id": "",
+   "name": "Jarrah Elsworth",
+   "email": "jelsworth@quarrylanebank.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 3,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Ajelsworth%40quarrylanebank.example%20OR%20to%3Ajelsworth%40quarrylanebank.example",
+    "Emails Exchanged": 3,
+    "Email Threads": 1,
+    "First Email": "2025-09-16",
+    "Last Email": "2025-09-27",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 60,
+    "Relationship Context": "Jarrah Elsworth, at Quarry Lane Bank, contacted you in September 2025 after a mutual client said you helped them get their numbers in order before a meeting, which made their loan easy. You replied that you were glad it helped and offered to send more companies their way. Jarrah encouraged that, saying the bank likes operators who know their numbers.",
+    "Open Loops": "2026-10-02: You offered to send more companies Jarrah's way when the timing is right, and Jarrah said to please do, but no referral has been made in these emails."
+   },
+   "computed": {
+    "Warmth": 32,
+    "Follow-up Status": "Dormant"
+   }
+  },
+  {
+   "id": "",
+   "name": "Kalani Oakhurst",
+   "email": "kalani@wexfordsoftware.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 6,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Akalani%40wexfordsoftware.example%20OR%20to%3Akalani%40wexfordsoftware.example",
+    "Emails Exchanged": 6,
+    "Email Threads": 2,
+    "First Email": "2026-04-24",
+    "Last Email": "2026-09-23",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 30,
+    "Relationship Context": "You scoped and delivered phase two of a data platform project for Kalani at Wexford Software, building the reporting layer and dashboards for their leadership team, which Kalani approved in April and praised in May. You reconnected in September to ask about Q1 planning.",
+    "Open Loops": "2026-10-02: Kalani asked on 2026-09-23 whether you know anyone to replace their departing controller by Q1 or to run a cyber tabletop exercise before the insurance renewal, and you have not yet replied."
+   },
+   "computed": {
+    "Warmth": 83,
+    "Follow-up Status": "Reply owed"
+   }
+  },
+  {
+   "id": "",
+   "name": "Leopold Thistlewood",
+   "email": "leopold@thistlewoodyarrow.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 3,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Aleopold%40thistlewoodyarrow.example%20OR%20to%3Aleopold%40thistlewoodyarrow.example",
+    "Emails Exchanged": 3,
+    "Email Threads": 1,
+    "First Email": "2026-08-02",
+    "Last Email": "2026-08-12",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 60,
+    "Relationship Context": "They contacted you on 2 August 2026 about their sell-side workflow, saying they spend too many hours on data rooms for each deal and asking whether you had mapped that kind of work. You replied that you had and offered a walkthrough, and they confirmed the Tuesday slot on 12 August.",
+    "Open Loops": "2026-10-02: The Tuesday walkthrough of your data-room workflow mapping was agreed, but no later email shows whether it happened or what the next step is."
+   },
+   "computed": {
+    "Warmth": 66,
+    "Follow-up Status": "Reply owed"
+   }
+  },
+  {
+   "id": "",
+   "name": "Marisa Underhill",
+   "email": "marisa@pennanthr.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 3,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Amarisa%40pennanthr.example%20OR%20to%3Amarisa%40pennanthr.example",
+    "Emails Exchanged": 3,
+    "Email Threads": 1,
+    "First Email": "2026-03-05",
+    "Last Email": "2026-03-15",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 60,
+    "Relationship Context": "You referred a client to Marisa Underhill at Pennant HR Partners, who then completed the client's handbook and onboarding. You told Marisa the client called it the smoothest part of their year, and Marisa replied that they are happy to take more teams in the 10 to 150 range."
+   },
+   "computed": {
+    "Warmth": 50,
+    "Follow-up Status": "Dormant"
+   }
+  },
+  {
+   "id": "",
+   "name": "Nkem Dunmore",
+   "email": "nkem@galbraithfoods.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 7,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Ankem%40galbraithfoods.example%20OR%20to%3Ankem%40galbraithfoods.example",
+    "Emails Exchanged": 7,
+    "Email Threads": 2,
+    "First Email": "2025-05-19",
+    "Last Email": "2026-09-04",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 30,
+    "Relationship Context": "You mapped the co-packing order workflow for Nkem at Galbraith Foods in May 2025, and Nkem said it explained why lead times slipped. You automated the order handoff to the plant in June 2025, and Nkem reported lead times falling from 11 days to 6. In August 2026 Nkem came back asking for help with an equipment loan refinance and a CFO review of their books.",
+    "Open Loops": "2026-10-02: You told Nkem on 2026-08-31 that you know people for both a banker and a CFO and would come back to them, and you have not yet followed up; Nkem would like this before year end."
+   },
+   "computed": {
+    "Warmth": 85,
+    "Follow-up Status": "Reply owed"
+   }
+  },
+  {
+   "id": "",
+   "name": "Orla Jessop",
+   "email": "orla@larkspurmedia.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 3,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Aorla%40larkspurmedia.example%20OR%20to%3Aorla%40larkspurmedia.example",
+    "Emails Exchanged": 3,
+    "Email Threads": 1,
+    "First Email": "2025-11-25",
+    "Last Email": "2025-12-07",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 90,
+    "Relationship Context": "You contacted Orla Jessop at Larkspur Media on 25 November 2025 to request a 60-second launch video due by the 20th. Orla agreed, committing to a script by Friday and a first cut by the 15th. Orla then sent the final cut on 7 December 2025."
+   },
+   "computed": {
+    "Warmth": 39,
+    "Follow-up Status": "Dormant"
+   }
+  },
+  {
+   "id": "",
+   "name": "Pascal Brightwater",
+   "email": "pascal@summitlineins.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 2,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Apascal%40summitlineins.example%20OR%20to%3Apascal%40summitlineins.example",
+    "Emails Exchanged": 2,
+    "Email Threads": 1,
+    "First Email": "2024-12-30",
+    "Last Email": "2025-01-05",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 90,
+    "Relationship Context": "On 2024-12-30 you emailed Pascal Brightwater at Summitline Insurance asking for help because a client was asking about key-person insurance. On 2025-01-05 Pascal replied that they could help and offered to quote it once you sent the client's details over.",
+    "Open Loops": "2026-10-02: You have not yet sent Pascal the client's details for the key-person policy quote, which Pascal asked for on 2025-01-05."
+   },
+   "computed": {
+    "Warmth": 28,
+    "Follow-up Status": "Dormant"
+   }
+  },
+  {
+   "id": "",
+   "name": "Quinn Penhallow",
+   "email": "quinn@penhallowadvisory.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 3,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Aquinn%40penhallowadvisory.example%20OR%20to%3Aquinn%40penhallowadvisory.example",
+    "Emails Exchanged": 3,
+    "Email Threads": 1,
+    "First Email": "2026-06-13",
+    "Last Email": "2026-06-21",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 90,
+    "Relationship Context": "Quinn Penhallow reached out on 2026-06-13 after reading your note on fixed-fee engagements, saying you should compare notes. You agreed and proposed coffee, and Quinn said next week works and that they would bring the pricing model they use. No joint work is mentioned.",
+    "Open Loops": "2026-10-02: The coffee meeting was proposed for the week after 2026-06-21, but no date, time or place was set, and Quinn said they would bring their pricing model."
+   },
+   "computed": {
+    "Warmth": 61,
+    "Follow-up Status": "Overdue"
+   }
+  },
+  {
+   "id": "",
+   "name": "Rania Zabriskie",
+   "email": "rania@cobaltgrove.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 3,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Arania%40cobaltgrove.example%20OR%20to%3Arania%40cobaltgrove.example",
+    "Emails Exchanged": 3,
+    "Email Threads": 1,
+    "First Email": "2026-05-14",
+    "Last Email": "2026-05-28",
+    "Last Email From": "Me",
+    "Follow-up Cadence": 60,
+    "Relationship Context": "You sent Rania Zabriskie of Cobalt Grove Foundation an evaluation framework for their workforce program on 2026-05-14. Rania replied that the board loved it and that their funders want this kind of reporting every quarter. You then said you would set it up to run automatically.",
+    "Open Loops": "2026-10-02: You promised on 2026-05-28 to set up the evaluation reporting to run automatically for the quarterly funder reports, and the emails do not show that this was done or confirmed."
+   },
+   "computed": {
+    "Warmth": 38,
+    "Follow-up Status": "Overdue"
+   }
+  },
+  {
+   "id": "",
+   "name": "Soren Ledbetter",
+   "email": "soren@ledbettersystems.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 3,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Asoren%40ledbettersystems.example%20OR%20to%3Asoren%40ledbettersystems.example",
+    "Emails Exchanged": 3,
+    "Email Threads": 1,
+    "First Email": "2026-07-18",
+    "Last Email": "2026-07-24",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 90,
+    "Relationship Context": "Soren Ledbetter contacted you on 2026-07-18 after seeing your talk, saying they manage 200 seats on Microsoft 365 and wanted to compare notes on device policies. You offered Thursday to talk and they confirmed it works. The emails do not show any joint work.",
+    "Open Loops": "2026-10-02: The Thursday conversation was agreed on 2026-07-24 but the emails do not show it took place or any follow-up, so confirm whether it happened and whether any next step is owed."
+   },
+   "computed": {
+    "Warmth": 64,
+    "Follow-up Status": "On track"
+   }
+  },
+  {
+   "id": "",
+   "name": "Thandiwe Marchbank",
+   "email": "thandiwe@marchbankrealty.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 4,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Athandiwe%40marchbankrealty.example%20OR%20to%3Athandiwe%40marchbankrealty.example",
+    "Emails Exchanged": 4,
+    "Email Threads": 1,
+    "First Email": "2026-01-14",
+    "Last Email": "2026-01-30",
+    "Last Email From": "Me",
+    "Follow-up Cadence": 90,
+    "Relationship Context": "You contacted Thandiwe Marchbank in January 2026 looking for a small downtown office of about 1,500 square feet. They sent you three options, recommending the second for its lease terms, and you signed that one, thanking them for negotiating the free months.",
+    "Suggested Can Help With": "Finding and negotiating office leases downtown and in the business district, including presenting options and securing concessions like free months."
+   },
+   "computed": {
+    "Warmth": 29,
+    "Follow-up Status": "Overdue"
+   }
+  },
+  {
+   "id": "",
+   "name": "Ulrich Fairhaven",
+   "email": "ulrich@harbornine.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 2,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Aulrich%40harbornine.example%20OR%20to%3Aulrich%40harbornine.example",
+    "Emails Exchanged": 2,
+    "Email Threads": 1,
+    "First Email": "2026-08-12",
+    "Last Email": "2026-08-15",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 60,
+    "Relationship Context": "You met Ulrich Fairhaven of Harbor Nine Capital on a panel. On 2026-08-12 you wrote that you'd like to learn more about what Harbor Nine looks for, and on 2026-08-15 they replied that they'd find time next month. You have not worked on anything together.",
+    "Open Loops": "2026-10-02: Ulrich suggested finding time to talk 'next month' (September) and no meeting appears to have been scheduled, so you still need to follow up and set a time."
+   },
+   "computed": {
+    "Warmth": 63,
+    "Follow-up Status": "Reply owed"
+   }
+  },
+  {
+   "id": "",
+   "name": "Valentina Crane",
+   "email": "valentina@cranesupply.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 2,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Avalentina%40cranesupply.example%20OR%20to%3Avalentina%40cranesupply.example",
+    "Emails Exchanged": 2,
+    "Email Threads": 1,
+    "First Email": "2026-08-22",
+    "Last Email": "2026-08-24",
+    "Last Email From": "Me",
+    "Follow-up Cadence": 60,
+    "Relationship Context": "Valentina Crane attended your workshop and then wrote to you, saying Crane Supply Co. is a 40-person distributor whose ordering is still on paper. You replied thanking them for coming and offered to look at how orders move today. There is no record of any joint work yet.",
+    "Open Loops": "2026-10-02: You asked if they were free next week to look at how orders move, and there is no reply from Valentina Crane in the emails.",
+    "Suggested Can Help With": "Sharing firsthand experience of running a 40-person distribution business with paper-based ordering, including the operational challenges of managing orders without digital systems."
+   },
+   "computed": {
+    "Warmth": 44,
+    "Follow-up Status": "On track"
+   }
+  },
+  {
+   "id": "",
+   "name": "Wren Holbrook",
+   "email": "wren@silverbirchlabs.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 2,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Awren%40silverbirchlabs.example%20OR%20to%3Awren%40silverbirchlabs.example",
+    "Emails Exchanged": 2,
+    "Email Threads": 1,
+    "First Email": "2026-09-06",
+    "Last Email": "2026-09-09",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 90,
+    "Relationship Context": "On 2026-09-06 you reached out to Wren Holbrook at Silverbirch Labs after enjoying their post on agents in production, and asked to compare notes. Wren replied on 2026-09-09 that they would be open to it in a few weeks, once their launch is out. You have not worked on anything together yet.",
+    "Open Loops": "2026-10-02: Wren suggested comparing notes in a few weeks after their launch, and it is now past that window, so you still need to follow up to set up the conversation.",
+    "Suggested Can Help With": "Wren has written about running agents in production and is working toward a product launch at Silverbirch Labs, so they could share experience on production agents."
+   },
+   "computed": {
+    "Warmth": 65,
+    "Follow-up Status": "Reply owed"
+   }
+  },
+  {
+   "id": "",
+   "name": "Ximena Rourke",
+   "email": "ximena@rourkedental.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 1,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Aximena%40rourkedental.example%20OR%20to%3Aximena%40rourkedental.example",
+    "Emails Exchanged": 1,
+    "Email Threads": 1,
+    "First Email": "2026-07-03",
+    "Last Email": "2026-07-03",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 90,
+    "Relationship Context": "Ximena Rourke of Rourke Dental Group wrote to you on 2026-07-03 after a colleague mentioned you had helped a clinic group with scheduling. They asked whether you would do similar work for a dental practice. That is the only message so far, and you have not worked together.",
+    "Open Loops": "2026-10-02: Ximena's question about whether you would help a dental practice with scheduling is unanswered, and there is no reply from you in the emails."
+   },
+   "computed": {
+    "Warmth": 54,
+    "Follow-up Status": "Overdue"
+   }
+  },
+  {
+   "id": "",
+   "name": "Yusuf Tarrant",
+   "email": "yusuf@tarrantfreight.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 2,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Ayusuf%40tarrantfreight.example%20OR%20to%3Ayusuf%40tarrantfreight.example",
+    "Emails Exchanged": 2,
+    "Email Threads": 1,
+    "First Email": "2026-09-16",
+    "Last Email": "2026-09-18",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 90,
+    "Relationship Context": "You were introduced to Yusuf Tarrant of Tarrant Freight through a mutual friend, and on 2026-09-16 you wrote to suggest talking about dispatch software. Yusuf replied on 2026-09-18 that they are happy to talk after their busy season. You have not worked on anything together yet.",
+    "Open Loops": "2026-10-02: Yusuf proposed talking after their busy season, with no date set, so you would need to follow up to schedule the dispatch software conversation."
+   },
+   "computed": {
+    "Warmth": 66,
+    "Follow-up Status": "Reply owed"
+   }
+  },
+  {
+   "id": "",
+   "name": "Zainab Merrow",
+   "email": "zainab@merrowinteriors.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 1,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Azainab%40merrowinteriors.example%20OR%20to%3Azainab%40merrowinteriors.example",
+    "Emails Exchanged": 1,
+    "Email Threads": 1,
+    "First Email": "2026-05-14",
+    "Last Email": "2026-05-14",
+    "Last Email From": "Me",
+    "Follow-up Cadence": 90,
+    "Relationship Context": "You met Zainab Merrow of Merrow Interiors at a trade show. On 2026-05-14 you sent a short follow-up email referring back to that conversation. The emails show nothing discussed in detail and nothing worked on together.",
+    "Open Loops": "2026-10-02: Your 2026-05-14 follow-up has no reply from Zainab in the emails, so it is unanswered and no next step is set."
+   },
+   "computed": {
+    "Warmth": 28,
+    "Follow-up Status": "Overdue"
+   }
+  },
+  {
+   "id": "",
+   "name": "Anders Pike",
+   "email": "anders@pikeleadgen.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 3,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Aanders%40pikeleadgen.example%20OR%20to%3Aanders%40pikeleadgen.example",
+    "Emails Exchanged": 3,
+    "Email Threads": 1,
+    "First Email": "2026-09-01",
+    "Last Email": "2026-09-09",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 90,
+    "Relationship Context": "Anders Pike of Pike Lead Gen contacted you first with unsolicited cold outreach about boosting your pipeline and booking 50 qualified meetings. They followed up twice, on Sept 5 and Sept 9, and you have not replied or worked together on anything.",
+    "Open Loops": "2026-10-02: Anders Pike's offer of 50 qualified meetings next month is unanswered, and you have not replied to any of the three messages."
+   },
+   "computed": {
+    "Warmth": 69,
+    "Follow-up Status": "On track"
+   }
+  },
+  {
+   "id": "",
+   "name": "Bryony Clegg",
+   "email": "bryony@cleggprint.example",
+   "match": "Email",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 2,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Mail Search Link": "https://mail.google.com/mail/u/0/#search/from%3Abryony%40cleggprint.example%20OR%20to%3Abryony%40cleggprint.example",
+    "Emails Exchanged": 2,
+    "Email Threads": 1,
+    "First Email": "2024-10-31",
+    "Last Email": "2024-11-03",
+    "Last Email From": "Me",
+    "Follow-up Cadence": 90,
+    "Relationship Context": "Bryony Clegg of Clegg Print sent you a final invoice on 31 October 2024. You replied on 3 November 2024 to confirm it was paid. The emails do not show how the relationship started or what work the invoice covered."
+   },
+   "computed": {
+    "Warmth": 8,
+    "Follow-up Status": "Dormant"
+   }
+  },
+  {
+   "id": "",
+   "name": "Cosmo Delancey",
+   "email": "cosmo@delanceystudio.example",
+   "match": "",
+   "kind": "no-mail",
+   "mode": "full",
+   "new_messages": 0,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Emails Exchanged": 0,
+    "Last Email From": "No email yet"
+   },
+   "computed": {
+    "Warmth": 0,
+    "Follow-up Status": "No email history"
+   }
+  },
+  {
+   "id": "",
+   "name": "Delia Fontaine",
+   "email": "",
+   "match": "Name",
+   "kind": "history",
+   "mode": "full",
+   "new_messages": 3,
+   "fields": {
+    "Inbox Checked": "2026-10-02",
+    "Emails Exchanged": 3,
+    "Email Threads": 1,
+    "First Email": "2026-02-23",
+    "Last Email": "2026-03-05",
+    "Last Email From": "Them",
+    "Follow-up Cadence": 90,
+    "Relationship Context": "Delia Fontaine of Fontaine Wealth emailed you on 2026-02-23 with three retirement plan options for a team your size. You replied on 2026-02-28 that the second option looked right, and on 2026-03-05 Delia said they would send the paperwork.",
+    "Open Loops": "2026-10-02: Delia said on 2026-03-05 that they would send the paperwork for the second retirement plan option, and the emails do not show it arriving or being completed.",
+    "Suggested Can Help With": "Delia can help teams choose and set up retirement plans, as shown by presenting three options for a team's size and preparing paperwork for the chosen one."
+   },
+   "computed": {
+    "Warmth": 49,
+    "Follow-up Status": "Overdue"
+   }
+  }
+ ],
+ "kept_without_change": [],
+ "new_people": [
+  {
+   "Promote": "",
+   "Name": "Gideon Ashcombe",
+   "Email": "gideon@fernhollow.example",
+   "Sent": 3,
+   "Received": 3,
+   "First Email": "2026-07-28",
+   "Last Email": "2026-08-18",
+   "Last Subject": "Workshop collaboration",
+   "Also In": "LinkedIn feeder",
+   "Found On": "2026-10-02"
+  },
+  {
+   "Promote": "",
+   "Name": "Tobias Kettering",
+   "Email": "tobias@ketteringco.example",
+   "Sent": 2,
+   "Received": 3,
+   "First Email": "2026-09-03",
+   "Last Email": "2026-09-16",
+   "Last Subject": "Reporting automation",
+   "Also In": "",
+   "Found On": "2026-10-02"
+  },
+  {
+   "Promote": "",
+   "Name": "Marguerite Lowell",
+   "Email": "m.lowell@ostranderpartners.example",
+   "Sent": 2,
+   "Received": 2,
+   "First Email": "2026-08-07",
+   "Last Email": "2026-08-23",
+   "Last Subject": "Board advisor question",
+   "Also In": "",
+   "Found On": "2026-10-02"
+  }
+ ],
+ "name_only_matches": [
+  "Delia Fontaine"
+ ],
+ "summary_failures": []
+}

@@ -1,0 +1,4 @@
+# Relationship Memory weekly run: Mondays at 07:00. Add with `crontab -e`.
+# On macOS, cron needs Full Disk Access to read some folders, and it cannot reach the Keychain while
+# the Mac is locked; launchd (the .plist template) is the better choice on a Mac. Use cron on Linux.
+0 7 * * 1 /bin/bash "$HOME/.relationship-memory/bin/run_weekly.sh" >> "$HOME/.relationship-memory/reports/cron.log" 2>&1

@@ -1,0 +1,345 @@
+RELATIONSHIP MEMORY 1.1: inbox learning run, 2026-10-02 - APPLY
+Inbox: mbox mock-inbox.mbox (134 messages read)   People in spine: 30
+
+History updated: 29 (0 added to stored totals, 29 full)   No email yet: 1   Unchanged since last check: 0   Replies owed: 9
+Replies owed: Corinne Hazelton, Hiroshi Vandermeer, Ines Kittredge, Kalani Oakhurst, Leopold Thistlewood, Nkem Dunmore, Ulrich Fairhaven, Wren Holbrook, Yusuf Tarrant
+
+PROPOSED CHANGES (history columns only; owner columns, including Next Step, are never touched)
+- Avery Calderwood [matched by Email]
+    Emails Exchanged: (blank) -> 8
+    Email Threads: (blank) -> 2
+    First Email: (blank) -> 2025-08-07
+    Last Email: (blank) -> 2026-08-29
+    Last Email From: (blank) -> Me
+    Follow-up Cadence: (blank) -> 30
+    Relationship Context: (blank) -> You met Avery at a founder dinner in August 2025, where Avery said they look at B2B software at seed. You sen…
+    Open Loops: (blank) -> 2026-10-02: Avery said they would send the intro to their portfolio COO group, and you said you would prepare…
+    Warmth: (blank) -> 68
+    Follow-up Status: (blank) -> Overdue
+- Benedikt Fenwick [matched by Email]
+    Emails Exchanged: (blank) -> 6
+    Email Threads: (blank) -> 2
+    First Email: (blank) -> 2026-03-15
+    Last Email: (blank) -> 2026-07-29
+    Last Email From: (blank) -> Me
+    Follow-up Cadence: (blank) -> 60
+    Relationship Context: (blank) -> You referred a client of yours who needed a 13-week cash forecast before a bank meeting to Benedikt at Lattic…
+    Open Loops: (blank) -> 2026-10-02: You asked Benedikt on 2026-07-29 to send what their two clients' month-end close looks like today…
+    Warmth: (blank) -> 57
+    Follow-up Status: (blank) -> Overdue
+- Corinne Hazelton [matched by Email]
+    Emails Exchanged: (blank) -> 7
+    Email Threads: (blank) -> 2
+    First Email: (blank) -> 2025-12-05
+    Last Email: (blank) -> 2026-09-07
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 30
+    Relationship Context: (blank) -> In December 2025 you sent Corinne Hazelton at Tallgrass Health a map of the patient scheduling workflow acros…
+    Open Loops: (blank) -> 2026-10-02: You said on 2026-09-04 that you would check with an HR firm and come back to Corinne that week, a…
+    Warmth: (blank) -> 85
+    Follow-up Status: (blank) -> Reply owed
+- Dayo Northcote [matched by Email]
+    Emails Exchanged: (blank) -> 3
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-01-14
+    Last Email: (blank) -> 2026-01-22
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 60
+    Relationship Context: (blank) -> You referred a candidate to Dayo Northcote at Riverstone Talent last spring, and that COO placement worked ou…
+    Open Loops: (blank) -> 2026-10-02: You said you would keep sending referrals to Dayo, who invited them for the two open finance sear…
+    Warmth: (blank) -> 44
+    Follow-up Status: (blank) -> Dormant
+- Emeka Stanhope [matched by Email]
+    Emails Exchanged: (blank) -> 3
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-05-04
+    Last Email: (blank) -> 2026-05-14
+    Last Email From: (blank) -> Me
+    Follow-up Cadence: (blank) -> 60
+    Relationship Context: (blank) -> You asked Emeka Stanhope of Brightman Legal on 4 May 2026 to review a partnership agreement before signing, f…
+    Warmth: (blank) -> 36
+    Follow-up Status: (blank) -> Overdue
+- Freya Redfern [matched by Email]
+    Emails Exchanged: (blank) -> 6
+    Email Threads: (blank) -> 2
+    First Email: (blank) -> 2026-06-03
+    Last Email: (blank) -> 2026-09-13
+    Last Email From: (blank) -> Me
+    Follow-up Cadence: (blank) -> 30
+    Relationship Context: (blank) -> You first contacted Freya in June 2026 to ask whether they would run a tabletop exercise for one of your clie…
+    Open Loops: (blank) -> 2026-10-02: You told Freya on 2026-09-13 that you would find a date for the co-hosted breakfast within the ne…
+    Warmth: (blank) -> 62
+    Follow-up Status: (blank) -> Due soon
+- Gustavo Mallory [matched by Email]
+    Emails Exchanged: (blank) -> 6
+    Email Threads: (blank) -> 2
+    First Email: (blank) -> 2025-10-26
+    Last Email: (blank) -> 2026-07-02
+    Last Email From: (blank) -> Me
+    Follow-up Cadence: (blank) -> 60
+    Relationship Context: (blank) -> You sent Gustavo Mallory of Copperline Logistics a plan for rolling out route planning across the fleet, whic…
+    Open Loops: (blank) -> 2026-10-02: On 2026-07-02 you told Gustavo you would think about who fits best for advising on a business sal…
+    Warmth: (blank) -> 54
+    Follow-up Status: (blank) -> Overdue
+- Hiroshi Vandermeer [matched by Email]
+    Emails Exchanged: (blank) -> 6
+    Email Threads: (blank) -> 2
+    First Email: (blank) -> 2026-04-04
+    Last Email: (blank) -> 2026-09-22
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 60
+    Relationship Context: (blank) -> You offered Hiroshi Vandermeer an introduction to a logistics software founder raising a Series A, and after …
+    Open Loops: (blank) -> 2026-10-02: Hiroshi asked on 2026-09-22 for a short note about operations and reporting that they can forward…
+    Suggested Can Help With: (blank) -> Leads climate and logistics tech investments, mostly Series A, and sits on two portfolio boards; can advise o…
+    Warmth: (blank) -> 83
+    Follow-up Status: (blank) -> Reply owed
+- Ines Kittredge [matched by Email]
+    Emails Exchanged: (blank) -> 6
+    Email Threads: (blank) -> 2
+    First Email: (blank) -> 2026-02-13
+    Last Email: (blank) -> 2026-09-27
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 90
+    Relationship Context: (blank) -> Ines Kittredge of Ingleby Events invited you to an operators dinner in February 2026, which you attended, and…
+    Open Loops: (blank) -> 2026-10-02: Ines asked you on 2026-09-27 to send a title and a two-line description for your talk by Friday, …
+    Warmth: (blank) -> 83
+    Follow-up Status: (blank) -> Reply owed
+- Jarrah Elsworth [matched by Email]
+    Emails Exchanged: (blank) -> 3
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2025-09-16
+    Last Email: (blank) -> 2025-09-27
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 60
+    Relationship Context: (blank) -> Jarrah Elsworth, at Quarry Lane Bank, contacted you in September 2025 after a mutual client said you helped t…
+    Open Loops: (blank) -> 2026-10-02: You offered to send more companies Jarrah's way when the timing is right, and Jarrah said to plea…
+    Warmth: (blank) -> 32
+    Follow-up Status: (blank) -> Dormant
+- Kalani Oakhurst [matched by Email]
+    Emails Exchanged: (blank) -> 6
+    Email Threads: (blank) -> 2
+    First Email: (blank) -> 2026-04-24
+    Last Email: (blank) -> 2026-09-23
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 30
+    Relationship Context: (blank) -> You scoped and delivered phase two of a data platform project for Kalani at Wexford Software, building the re…
+    Open Loops: (blank) -> 2026-10-02: Kalani asked on 2026-09-23 whether you know anyone to replace their departing controller by Q1 or…
+    Warmth: (blank) -> 83
+    Follow-up Status: (blank) -> Reply owed
+- Leopold Thistlewood [matched by Email]
+    Emails Exchanged: (blank) -> 3
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-08-02
+    Last Email: (blank) -> 2026-08-12
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 60
+    Relationship Context: (blank) -> They contacted you on 2 August 2026 about their sell-side workflow, saying they spend too many hours on data …
+    Open Loops: (blank) -> 2026-10-02: The Tuesday walkthrough of your data-room workflow mapping was agreed, but no later email shows w…
+    Warmth: (blank) -> 66
+    Follow-up Status: (blank) -> Reply owed
+- Marisa Underhill [matched by Email]
+    Emails Exchanged: (blank) -> 3
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-03-05
+    Last Email: (blank) -> 2026-03-15
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 60
+    Relationship Context: (blank) -> You referred a client to Marisa Underhill at Pennant HR Partners, who then completed the client's handbook an…
+    Warmth: (blank) -> 50
+    Follow-up Status: (blank) -> Dormant
+- Nkem Dunmore [matched by Email]
+    Emails Exchanged: (blank) -> 7
+    Email Threads: (blank) -> 2
+    First Email: (blank) -> 2025-05-19
+    Last Email: (blank) -> 2026-09-04
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 30
+    Relationship Context: (blank) -> You mapped the co-packing order workflow for Nkem at Galbraith Foods in May 2025, and Nkem said it explained …
+    Open Loops: (blank) -> 2026-10-02: You told Nkem on 2026-08-31 that you know people for both a banker and a CFO and would come back …
+    Warmth: (blank) -> 85
+    Follow-up Status: (blank) -> Reply owed
+- Orla Jessop [matched by Email]
+    Emails Exchanged: (blank) -> 3
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2025-11-25
+    Last Email: (blank) -> 2025-12-07
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 90
+    Relationship Context: (blank) -> You contacted Orla Jessop at Larkspur Media on 25 November 2025 to request a 60-second launch video due by th…
+    Warmth: (blank) -> 39
+    Follow-up Status: (blank) -> Dormant
+- Pascal Brightwater [matched by Email]
+    Emails Exchanged: (blank) -> 2
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2024-12-30
+    Last Email: (blank) -> 2025-01-05
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 90
+    Relationship Context: (blank) -> On 2024-12-30 you emailed Pascal Brightwater at Summitline Insurance asking for help because a client was ask…
+    Open Loops: (blank) -> 2026-10-02: You have not yet sent Pascal the client's details for the key-person policy quote, which Pascal a…
+    Warmth: (blank) -> 28
+    Follow-up Status: (blank) -> Dormant
+- Quinn Penhallow [matched by Email]
+    Emails Exchanged: (blank) -> 3
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-06-13
+    Last Email: (blank) -> 2026-06-21
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 90
+    Relationship Context: (blank) -> Quinn Penhallow reached out on 2026-06-13 after reading your note on fixed-fee engagements, saying you should…
+    Open Loops: (blank) -> 2026-10-02: The coffee meeting was proposed for the week after 2026-06-21, but no date, time or place was set…
+    Warmth: (blank) -> 61
+    Follow-up Status: (blank) -> Overdue
+- Rania Zabriskie [matched by Email]
+    Emails Exchanged: (blank) -> 3
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-05-14
+    Last Email: (blank) -> 2026-05-28
+    Last Email From: (blank) -> Me
+    Follow-up Cadence: (blank) -> 60
+    Relationship Context: (blank) -> You sent Rania Zabriskie of Cobalt Grove Foundation an evaluation framework for their workforce program on 20…
+    Open Loops: (blank) -> 2026-10-02: You promised on 2026-05-28 to set up the evaluation reporting to run automatically for the quarte…
+    Warmth: (blank) -> 38
+    Follow-up Status: (blank) -> Overdue
+- Soren Ledbetter [matched by Email]
+    Emails Exchanged: (blank) -> 3
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-07-18
+    Last Email: (blank) -> 2026-07-24
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 90
+    Relationship Context: (blank) -> Soren Ledbetter contacted you on 2026-07-18 after seeing your talk, saying they manage 200 seats on Microsoft…
+    Open Loops: (blank) -> 2026-10-02: The Thursday conversation was agreed on 2026-07-24 but the emails do not show it took place or an…
+    Warmth: (blank) -> 64
+    Follow-up Status: (blank) -> On track
+- Thandiwe Marchbank [matched by Email]
+    Emails Exchanged: (blank) -> 4
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-01-14
+    Last Email: (blank) -> 2026-01-30
+    Last Email From: (blank) -> Me
+    Follow-up Cadence: (blank) -> 90
+    Relationship Context: (blank) -> You contacted Thandiwe Marchbank in January 2026 looking for a small downtown office of about 1,500 square fe…
+    Suggested Can Help With: (blank) -> Finding and negotiating office leases downtown and in the business district, including presenting options and…
+    Warmth: (blank) -> 29
+    Follow-up Status: (blank) -> Overdue
+- Ulrich Fairhaven [matched by Email]
+    Emails Exchanged: (blank) -> 2
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-08-12
+    Last Email: (blank) -> 2026-08-15
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 60
+    Relationship Context: (blank) -> You met Ulrich Fairhaven of Harbor Nine Capital on a panel. On 2026-08-12 you wrote that you'd like to learn …
+    Open Loops: (blank) -> 2026-10-02: Ulrich suggested finding time to talk 'next month' (September) and no meeting appears to have bee…
+    Warmth: (blank) -> 63
+    Follow-up Status: (blank) -> Reply owed
+- Valentina Crane [matched by Email]
+    Emails Exchanged: (blank) -> 2
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-08-22
+    Last Email: (blank) -> 2026-08-24
+    Last Email From: (blank) -> Me
+    Follow-up Cadence: (blank) -> 60
+    Relationship Context: (blank) -> Valentina Crane attended your workshop and then wrote to you, saying Crane Supply Co. is a 40-person distribu…
+    Open Loops: (blank) -> 2026-10-02: You asked if they were free next week to look at how orders move, and there is no reply from Vale…
+    Suggested Can Help With: (blank) -> Sharing firsthand experience of running a 40-person distribution business with paper-based ordering, includin…
+    Warmth: (blank) -> 44
+    Follow-up Status: (blank) -> On track
+- Wren Holbrook [matched by Email]
+    Emails Exchanged: (blank) -> 2
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-09-06
+    Last Email: (blank) -> 2026-09-09
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 90
+    Relationship Context: (blank) -> On 2026-09-06 you reached out to Wren Holbrook at Silverbirch Labs after enjoying their post on agents in pro…
+    Open Loops: (blank) -> 2026-10-02: Wren suggested comparing notes in a few weeks after their launch, and it is now past that window,…
+    Suggested Can Help With: (blank) -> Wren has written about running agents in production and is working toward a product launch at Silverbirch Lab…
+    Warmth: (blank) -> 65
+    Follow-up Status: (blank) -> Reply owed
+- Ximena Rourke [matched by Email]
+    Emails Exchanged: (blank) -> 1
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-07-03
+    Last Email: (blank) -> 2026-07-03
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 90
+    Relationship Context: (blank) -> Ximena Rourke of Rourke Dental Group wrote to you on 2026-07-03 after a colleague mentioned you had helped a …
+    Open Loops: (blank) -> 2026-10-02: Ximena's question about whether you would help a dental practice with scheduling is unanswered, a…
+    Warmth: (blank) -> 54
+    Follow-up Status: (blank) -> Overdue
+- Yusuf Tarrant [matched by Email]
+    Emails Exchanged: (blank) -> 2
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-09-16
+    Last Email: (blank) -> 2026-09-18
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 90
+    Relationship Context: (blank) -> You were introduced to Yusuf Tarrant of Tarrant Freight through a mutual friend, and on 2026-09-16 you wrote …
+    Open Loops: (blank) -> 2026-10-02: Yusuf proposed talking after their busy season, with no date set, so you would need to follow up …
+    Warmth: (blank) -> 66
+    Follow-up Status: (blank) -> Reply owed
+- Zainab Merrow [matched by Email]
+    Emails Exchanged: (blank) -> 1
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-05-14
+    Last Email: (blank) -> 2026-05-14
+    Last Email From: (blank) -> Me
+    Follow-up Cadence: (blank) -> 90
+    Relationship Context: (blank) -> You met Zainab Merrow of Merrow Interiors at a trade show. On 2026-05-14 you sent a short follow-up email ref…
+    Open Loops: (blank) -> 2026-10-02: Your 2026-05-14 follow-up has no reply from Zainab in the emails, so it is unanswered and no next…
+    Warmth: (blank) -> 28
+    Follow-up Status: (blank) -> Overdue
+- Anders Pike [matched by Email]
+    Emails Exchanged: (blank) -> 3
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-09-01
+    Last Email: (blank) -> 2026-09-09
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 90
+    Relationship Context: (blank) -> Anders Pike of Pike Lead Gen contacted you first with unsolicited cold outreach about boosting your pipeline …
+    Open Loops: (blank) -> 2026-10-02: Anders Pike's offer of 50 qualified meetings next month is unanswered, and you have not replied t…
+    Warmth: (blank) -> 69
+    Follow-up Status: (blank) -> On track
+- Bryony Clegg [matched by Email]
+    Emails Exchanged: (blank) -> 2
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2024-10-31
+    Last Email: (blank) -> 2024-11-03
+    Last Email From: (blank) -> Me
+    Follow-up Cadence: (blank) -> 90
+    Relationship Context: (blank) -> Bryony Clegg of Clegg Print sent you a final invoice on 31 October 2024. You replied on 3 November 2024 to co…
+    Warmth: (blank) -> 8
+    Follow-up Status: (blank) -> Dormant
+- Cosmo Delancey
+    Emails Exchanged: (blank) -> 0
+    Last Email From: (blank) -> No email yet
+    Warmth: (blank) -> 0
+    Follow-up Status: (blank) -> No email history
+- Delia Fontaine [matched by Name]
+    Emails Exchanged: (blank) -> 3
+    Email Threads: (blank) -> 1
+    First Email: (blank) -> 2026-02-23
+    Last Email: (blank) -> 2026-03-05
+    Last Email From: (blank) -> Them
+    Follow-up Cadence: (blank) -> 90
+    Relationship Context: (blank) -> Delia Fontaine of Fontaine Wealth emailed you on 2026-02-23 with three retirement plan options for a team you…
+    Open Loops: (blank) -> 2026-10-02: Delia said on 2026-03-05 that they would send the paperwork for the second retirement plan option…
+    Suggested Can Help With: (blank) -> Delia can help teams choose and set up retirement plans, as shown by presenting three options for a team's si…
+    Warmth: (blank) -> 49
+    Follow-up Status: (blank) -> Overdue
+
+SUGGESTED CAN HELP WITH (for the owner to accept or ignore; never copied into Can Help With)
+- Hiroshi Vandermeer: "Leads climate and logistics tech investments, mostly Series A, and sits on two portfolio boards; can advise on Series A fundraising and connect founders to portfolio companies."
+- Thandiwe Marchbank: "Finding and negotiating office leases downtown and in the business district, including presenting options and securing concessions like free months."
+- Valentina Crane: "Sharing firsthand experience of running a 40-person distribution business with paper-based ordering, including the operational challenges of managing orders without digital systems."
+- Wren Holbrook: "Wren has written about running agents in production and is working toward a product launch at Silverbirch Labs, so they could share experience on production agents."
+- Delia Fontaine: "Delia can help teams choose and set up retirement plans, as shown by presenting three options for a team's size and preparing paperwork for the chosen one."
+
+NEW PEOPLE (2+ emails each way, not in the spine): 3
+- Gideon Ashcombe <gideon@fernhollow.example>: 3 sent / 3 received, last 2026-08-18, "Workshop collaboration" (also in LinkedIn feeder)
+- Tobias Kettering <tobias@ketteringco.example>: 2 sent / 3 received, last 2026-09-16, "Reporting automation"
+- Marguerite Lowell <m.lowell@ostranderpartners.example>: 2 sent / 2 received, last 2026-08-23, "Board advisor question"
+
+CHECK THESE (matched by name only, no email address on file): Delia Fontaine

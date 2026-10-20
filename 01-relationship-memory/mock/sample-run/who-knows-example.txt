@@ -1,0 +1,25 @@
+**WHO KNOWS:** someone to help a company refinance a loan or get its books ready for a bank
+
+**Ask these**
+1. **Benedikt Fenwick**, Founder & CPA at Lattice Row Accounting · Strong · warmth #15 of 30 (57) · last email 2026-07-29 (Me)
+   Why: "Fractional CFO work for service firms under $20M revenue. Clean books, cash forecasting, getting ready for a bank loan."
+   Timing: Open loop. He's waiting on you for details about two clients' month-end close, ahead of the lunch you agreed to in August. Send those details and ask inside that message. Your last email to him was 2026-07-29, so it's your move.
+   https://mail.google.com/mail/u/0/#search/from%3Aben%40latticerow.example%20OR%20to%3Aben%40latticerow.example
+2. **Jarrah Elsworth**, SVP, Commercial Lending at Quarry Lane Bank · Strong · warmth #25 of 30 (32) · last email 2025-09-27 (Them)
+   Why: "Commercial lending and SBA loans for companies between $2M and $50M revenue."
+   Timing: Cooler; re-warm before asking. Silent for about a year. You owe Jarrah referrals (they explicitly invited them), so lead with a referral and make the ask second.
+   https://mail.google.com/mail/u/0/#search/from%3Ajelsworth%40quarrylanebank.example%20OR%20to%3Ajelsworth%40quarrylanebank.example
+
+**Could introduce you**
+- **Ines Kittredge** (Ingleby Events): "Puts the right 30 people in a room… makes introductions generously." Her warmth is 84 (#3), but you owe her your talk title and description, so send that first.
+
+**Worth a look (unvetted, from LinkedIn connections)**
+- Ulla Ellery, VP, Commercial Lending at Harborview Credit Union, last message 2026-04-25.
+- Abel Ormsby, VP, Commercial Lending at Harborview Credit Union, last message 2023-11-04.
+- Gemma Tolland, VP, Commercial Lending at Harborview Credit Union, last message 2023-10-18.
+
+Harborview has one more lending VP, Ulla Gresham, last message 2022-10-21, which I left out to stay within the three-lead limit. Write a Can Help With for any of them who belong in your answers.
+
+**Gaps:** You have one accountant (Benedikt) and one banker (Jarrah). Nobody covers equipment financing specifically, or a second banker to compare terms.
+
+**One more thing:** Nkem Dunmore (Galbraith Foods) asked you for a banker and a CFO introduction for equipment refinancing before year end. You haven't delivered, and Benedikt and Jarrah fit those two requests. Run `/who-knows --intros Nkem Dunmore` and I'll draft the double-opt-in notes.
