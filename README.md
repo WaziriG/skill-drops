@@ -13,6 +13,7 @@ Each one is rated for how ready it is to use:
 | # | Drop | Rating | What it does |
 |---|------|--------|--------------|
 | 01 | [Relationship Memory](01-relationship-memory/) | Works as-is | Gives your contact list a memory, so you can ask Claude Code "who do I know who…" and get an answer from your own notes, warmest relationships first. |
+| 02 | [Who Knows](02-who-knows/) | Works as-is | The question layer on its own. Ten people, one sentence each on what they can help with, and you can ask "who do I know who…" in fifteen minutes, no inbox needed. Also finds introductions worth making. |
 
 ## Installing a drop
 

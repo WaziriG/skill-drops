@@ -1,0 +1,46 @@
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+**INTROS: who in your network should meet whom** (demo map, owner Alex Rivera)
+
+Four people have a need on record from the last 90 days: Corinne, Gustavo, Kalani and Nkem. Leopold's Next Step says PAUSED, so he is left out of introductions. Ranks below come from Priority and then list order, out of the 20 people marked Know Them? = Yes.
+
+---
+
+**INTRO 1: Kalani Oakhurst ↔ Freya Redfern**
+Need (private, for you): a cyber tabletop exercise before the insurance renewal in December (logged 2026-10-14).
+Why them: "Incident response and tabletop exercises for mid-size firms. Also knows the cyber insurance underwriters."
+Rank: Kalani #4 (priority A), Freya #3 (priority A). Timing: this answers Kalani's open loop from 10-14, and the December renewal sets the deadline.
+
+**INTRO 2: Corinne Hazelton ↔ Marisa Underhill**
+Need (private, for you): an outsourced HR firm, because a clinic manager is leaving (logged 2026-10-09).
+Why them: "Outsourced HR for teams of 10 to 150: handbooks, onboarding, and tricky terminations."
+Rank: Corinne #2 (priority A), Marisa #13 (priority B). Timing: this is the oldest open loop of the four, open for 11 days.
+
+**INTRO 3: Nkem Dunmore ↔ Benedikt Fenwick**
+Need (private, for you): refinancing equipment before year end. Nkem wants a banker and someone to get the books ready (logged 2026-10-12).
+Why them: "Fractional CFO work for service firms under $20M revenue. Clean books, cash forecasting, getting ready for a bank loan."
+Rank: Nkem #5 (priority A), Benedikt #6 (priority B). Timing: this answers the open loop from 10-12. Benedikt's entry says "service firms" and Galbraith Foods is a manufacturer, so ask Benedikt whether that is a fit before you promise anything.
+
+**Held for the next run (the skill allows 3 per run):**
+- **Gustavo Mallory ↔ Emeka Stanhope.** Gustavo is "about to sign a three-year software contract for route planning; wants it reviewed first" (10-16). Emeka is the "good first call before signing a vendor or partnership agreement." This one is the most urgent of the four even though it ranks lowest, so you may want to swap it in for Intro 2 or 3.
+- **Nkem Dunmore ↔ Jarrah Elsworth** covers the banker half of Nkem's need: "Commercial lending and SBA loans for companies between $2M and $50M revenue." Offer it after Nkem replies to the books intro, so Nkem gets one ask at a time.
+
+---
+
+**First-side drafts (to the person with the need only)**
+
+**To Kalani:**
+> Kalani — you mentioned the tabletop exercise before your December renewal. I know Freya Redfern, founder of Kestrel Cyber. Her firm runs incident response and tabletop exercises for mid-size companies. Would an introduction be useful? If so, tell me what you're comfortable with me sharing about your timeline and setup, and I'll pass along only that.
+
+**To Corinne:**
+> Corinne — on the outsourced HR question: I know Marisa Underhill, founder of Pennant HR Partners. They handle HR for teams of roughly 10 to 150, including handbooks, onboarding and transitions. Would you like me to connect you? Let me know what I can share about the situation, and I'll keep it to that.
+
+**To Nkem:**
+> Nkem — on getting the books ready for the equipment refinance: I know Benedikt Fenwick, a CPA and founder of Lattice Row Accounting. He does fractional CFO work, including getting companies ready for a bank conversation. Want an introduction? Tell me what you're comfortable with me sharing. I also know a commercial lender I can bring in once the books are moving.
+
+The notes to Freya, Marisa and Benedikt wait until each person above says yes. They will contain only what that person approved: nothing from Open Loops, nothing about the clinic manager leaving, and no renewal dates unless cleared.
+
+**Gaps:** None. Every need on record has at least one Strong match. Hiroshi Vandermeer and Thandiwe Marchbank are marked Yes but have no Can Help With, so they can't be matched until you fill that in.
+
+This demo ranked people by Priority because the starter table has no email history. The full Relationship Memory kit ranks by warmth from your inbox and adds reply-owed timing.
+
+Nothing was written or sent.
