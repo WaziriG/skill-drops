@@ -14,6 +14,7 @@ Each one is rated for how ready it is to use:
 |---|------|--------|--------------|-------|
 | 01 | [Relationship Memory](01-relationship-memory/) | Works as-is | Gives your contact list a memory, so you can ask Claude Code "who do I know who…" and get an answer from your own notes, warmest relationships first. | [Number 117](https://wazirigaruba.com/number-117) |
 | 02 | [Who Knows](02-who-knows/) | Works as-is | The question layer on its own. Ten people, one sentence each on what they can help with, and you can ask "who do I know who…" in fifteen minutes, no inbox needed. Also finds introductions worth making. | [Number 117](https://wazirigaruba.com/number-117) |
+| 03 | [Vet a Tool](03-vet-a-tool/) | Works as-is | Checks an AI tool against your own data and obligations before it touches anything, then reads what the vendor actually wrote down. Returns a dated verdict you can file. | [One Link Deeper](https://wazirigaruba.com/one-link-deeper) |
 
 ## Installing a drop
 
