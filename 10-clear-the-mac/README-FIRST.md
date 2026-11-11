@@ -72,3 +72,9 @@ Time Machine keeps local snapshots that can hold deleted files for up to a day. 
 - `demo/make-demo.sh`: the pretend computer
 - `sample-run/`: my first run, with the real numbers
 - `CLEAR-THE-MAC-GUIDE.pdf`: a one-page version to share
+
+## What's new in v1.1 (2026-11-11)
+- `scripts/memguard.sh`: run it during big copies. It stops macOS's icon service if it balloons, which can otherwise freeze the computer mid-copy.
+- Folders containing Locked files are held whole instead of being half-deleted.
+- Symlinks are recreated on both drives, so folders that contain them can be cleared.
+- After every clear, the manifest is rebuilt from the drive copy logs and checked, so the file list is always complete.

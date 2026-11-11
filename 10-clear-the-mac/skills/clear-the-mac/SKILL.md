@@ -1,6 +1,6 @@
 ---
 name: clear-the-mac
-description: Free up a full computer drive safely by moving big, rarely-used folders onto two external hard drives, with every file checksum-verified on both before anything is deleted, a register that tracks where everything went, a READ-ME left in each emptied folder, and a dollar figure for what the freed space is worth. Use when someone says their disk is full, "low on storage", "startup disk almost full", "my Mac is slow", "clear the Mac", "free up space", "offload to my hard drives", or "media register". Trigger: /clear-the-mac
+description: "Free up a full computer drive safely by moving big, rarely-used folders onto two external hard drives, with every file checksum-verified on both before anything is deleted, a register that tracks where everything went, a READ-ME left in each emptied folder, and a dollar figure for what the freed space is worth. Use when someone says their disk is full, \"low on storage\", \"startup disk almost full\", \"my Mac is slow\", \"clear the Mac\", \"free up space\", \"offload to my hard drives\", or \"media register\". Trigger: /clear-the-mac"
 ---
 
 # Clear the Mac
@@ -51,6 +51,12 @@ They fill `need` with `keep`, `archive` (rarely needed), or `pull back` (move it
 
 ## Step 4 — Copy and verify (safe; deletes nothing)
 
+**Before a big copy (added 2026-11-11, after a copy froze and restarted the Mac):**
+1. Start the memory guard in the background: `zsh scripts/memguard.sh &`. During big media copies macOS's icon service can balloon to tens of GB in minutes and freeze the computer; the guard stops it at 1.5 GB and macOS restarts it clean.
+2. Close every Finder window that shows the destination drives. Browsing them while files land is what sets the icon service off.
+3. Run big copies overnight or when no calls are planned, never during the owner's working day.
+4. If an antivirus is installed, offer to exclude the external drives from real-time scanning for the copy; it re-reads every file.
+
 ```bash
 python3 scripts/offload.py copy --register ~/offload/register.csv --drives "/Volumes/DRIVE_A" "/Volumes/DRIVE_B"
 ```
@@ -64,7 +70,9 @@ python3 scripts/offload.py check --register ... --drives ...           # read-on
 python3 scripts/offload.py clear --register ... --drives ... --confirm  # after the owner says go
 ```
 
-Report every HOLD and why. Common holds: a file edited since the copy (re-run `copy`), Windows junk files (`Thumbs.db`, `desktop.ini`) which are ignored automatically, symlinks (not copied, so the folder holds — decide by hand).
+Report every HOLD and why. Common holds: a file edited since the copy (re-run `copy`); Windows junk files (`Thumbs.db`, `desktop.ini`), which are ignored automatically; symlinks, which `copy` recreates on every drive (a folder holds only if a link is missing or differs; re-run `copy`); and **Locked files** (Finder's Locked flag): the folder is held whole rather than half-deleted. Unlock only with the owner's OK (`chflags nouchg <file>`), then re-run `clear`.
+
+After clearing, `clear` rebuilds the day's manifest from the drive copy logs and prints `Manifest check: N folders, N files listed, 0 problems`. Report that line. Any PROBLEM line means stop and look before anything else is cleared.
 
 **If free space doesn't rise after clearing**, local Time Machine snapshots are still holding the deleted files. They are released automatically within about a day, or when space runs low. Tell the owner; offer `sudo tmutil deletelocalsnapshots /` only if no backup is in progress.
 

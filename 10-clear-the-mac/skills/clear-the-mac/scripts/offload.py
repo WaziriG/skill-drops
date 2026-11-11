@@ -200,6 +200,24 @@ def copy_folder(src, dst, logfile):
     return copied, same, failed
 
 
+def copy_links(src, dst):
+    """Recreate every symlink in src at the same place under dst, pointing at the same target text.
+    Links hold no data; clear accepts them only when the identical link exists on every drive."""
+    for root, dirs, files in os.walk(src):
+        for n in files + dirs:
+            p = os.path.join(root, n)
+            if not os.path.islink(p):
+                continue
+            t = os.path.join(dst, os.path.relpath(p, src))
+            want = os.readlink(p)
+            if os.path.islink(t) and os.readlink(t) == want:
+                continue
+            os.makedirs(os.path.dirname(t), exist_ok=True)
+            if os.path.lexists(t):
+                os.remove(t)
+            os.symlink(want, t)
+
+
 def cmd_copy(a):
     rows = read_register(a.register)
     root = os.path.expanduser(a.root)
@@ -215,6 +233,7 @@ def cmd_copy(a):
         ok = []
         for i, d in enumerate(a.drives):
             c, s, f = copy_folder(src, drive_target(d, rel), log_path(a.register, d, rel))
+            copy_links(src, drive_target(d, rel))
             print(f"  {os.path.basename(d.rstrip('/'))}: copied {c}  already identical {s}  FAILED {f}  {r['item']}")
             r["on_drive_a" if i == 0 else "on_drive_b"] = "yes" if f == 0 else ""
             ok.append(f == 0)
@@ -234,7 +253,12 @@ def check_row(r, a, root):
     for f in walk_files(src):
         rel_f = os.path.relpath(f, src)
         if os.path.islink(f):
-            problems.append(f"symlink not copied: {rel_f}")
+            # A link holds no data. It passes only if the same link (same target text) exists on every drive.
+            want = os.readlink(f)
+            for d in a.drives:
+                t = os.path.join(drive_target(d, rel), rel_f)
+                if not os.path.islink(t) or os.readlink(t) != want:
+                    problems.append(f"{os.path.basename(d)}: symlink not copied: {rel_f}")
             continue
         files += 1
         size += os.path.getsize(f)
@@ -264,6 +288,48 @@ def cmd_check(a):
             print("       " + p)
 
 
+def locked_files(top):
+    """Files with the macOS Locked flag (uchg/schg). Deleting would fail midway, so the folder is held instead."""
+    import stat
+    found = []
+    for root, dirs, files in os.walk(top):
+        for n in files + dirs:
+            try:
+                if os.lstat(os.path.join(root, n)).st_flags & (stat.UF_IMMUTABLE | stat.SF_IMMUTABLE):
+                    found.append(os.path.relpath(os.path.join(root, n), top))
+            except (OSError, AttributeError):
+                pass
+    return found
+
+
+def rebuild_manifest(a, rows, root, manifest):
+    """Self-check (added 2026-11-11 after a run lost a folder's rows): rewrite today's manifest
+    from the drive copy logs, so it lists every file of every folder cleared today, whatever
+    happened to the rows appended during the run. Prints the totals and any file missing on a drive."""
+    tmp, total, folders, problems = manifest + ".tmp", 0, 0, []
+    with open(tmp, "w", newline="") as f:
+        w = csv.writer(f, delimiter="\t")
+        w.writerow(["folder", "relpath", "bytes", "md5"] + [f"drive_{i + 1}" for i in range(len(a.drives))])
+        for r in rows:
+            if r.get("cleared_on") != TODAY:
+                continue
+            rel = rel_of(r, root)
+            logs = [read_log(log_path(a.register, d, rel)) for d in a.drives]
+            folders += 1
+            for rel_f, e in sorted(logs[0].items()):
+                targets = [os.path.join(drive_target(d, rel), rel_f) for d in a.drives]
+                for d, log, t in zip(a.drives, logs, targets):
+                    other = log.get(rel_f)
+                    if not other or other["md5_src"] != e["md5_src"] or not os.path.isfile(t):
+                        problems.append(f"{os.path.basename(d)}: {r['item']}/{rel_f}")
+                w.writerow([r["path"], rel_f, e["bytes"], e["md5_src"]] + targets)
+                total += 1
+    os.replace(tmp, manifest)
+    print(f"Manifest check: {folders} folders, {total} files listed, {len(problems)} problems.")
+    for p in problems[:20]:
+        print(f"  PROBLEM {p}")
+
+
 def cmd_clear(a):
     if not a.confirm:
         sys.exit("clear deletes files from this computer. Re-run with --confirm once the owner has said so.")
@@ -286,6 +352,10 @@ def cmd_clear(a):
                 print(f"HOLD  {r['path']}  ({problems[0]})")
                 continue
             src, rel = os.path.expanduser(r["path"]), rel_of(r, root)
+            locked = locked_files(src)
+            if locked:
+                print(f"HOLD  {r['path']}  ({len(locked)} locked file(s), e.g. {locked[0]}; unlock only with the owner's OK)")
+                continue
             log = read_log(log_path(a.register, a.drives[0], rel))
             for rel_f, e in sorted(log.items()):
                 w.writerow([r["path"], rel_f, e["bytes"], e["md5_src"]] +
@@ -306,7 +376,8 @@ def cmd_clear(a):
             write_register(a.register, rows)
             freed += size
             print(f"CLEARED {files} files {size / 1e9:.2f} GB  {r['path']}")
-    if freed:
+    if any(r.get("cleared_on") == TODAY for r in rows):
+        rebuild_manifest(a, rows, root, manifest)
         for d in a.drives:
             os.makedirs(os.path.join(d, OFFLOAD_DIR), exist_ok=True)
             shutil.copy2(manifest, os.path.join(d, OFFLOAD_DIR, os.path.basename(manifest)))
